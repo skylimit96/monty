@@ -33,3 +33,15 @@ void addqueue(stack_t **head, int n)
 		nv_node->prev = ax;
 	}
 }
+/**
+ * f_queue - prints the top
+ * @head: stack head
+ * @compteur: line_number
+ * Return: no return
+*/
+void f_queue(stack_t **head, unsigned int compteur)
+{
+	(void)head;
+	(void)compteur;
+	bus.lifi = 1;
+}
