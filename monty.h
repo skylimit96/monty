@@ -61,4 +61,5 @@ void f_queue(stack_t **head, unsigned int compteur);
 int execute(char *contenu, stack_t **head, unsigned int compteur, FILE *fichier);
 void f_pint(stack_t **head, unsigned int number);
 void f_pop(stack_t **head, unsigned int compteur);
+void f_swap(stack_t **head, unsigned int compteur)
 #endif
