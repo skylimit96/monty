@@ -1,5 +1,6 @@
 #include "monty.h"
 #include <stdio.h>
+bus_t bus = {NULL, NULL, NULL, 0};
 /**
 * main - the main monty language interpreter
 * @argc: args counter
@@ -8,7 +9,6 @@
 */
 int main(int argc, char *argv[])
 {
-	bus_t bus = {NULL, NULL, NULL, 0};
 	char *contenu;
 	size_t size = 0;
 	ssize_t read_line = 1;
